@@ -6,7 +6,7 @@ export default function Home() {
     <title>ArzeeSign</title>
 
   </head>
-  <div className="bg-base-color">
+  <body className="bg-base-color">
     
     <img src='/BG-Section.svg'></img><div>
       <div className="flex container -mt-[250px] mx-auto">
@@ -16,7 +16,7 @@ export default function Home() {
             </div>
             <div className="mt-6 flex flex-col mx-auto">
               <h1 className="flex text-[#ffffff] text-[36px] mx-auto font-bold">Achmad Akbar Fah<span className="text-aksen-color">reza</span></h1>
-              <p className="text-[#cacaca] mx-auto mt-2">Junior Graphic, UI & 3D design</p>
+              <p className="text-[#cacaca] mx-auto mt-2">Junior Graphic, UI & 3D designer</p>
             </div>
             <div className="flex mx-auto">
               <ul className="flex mx-auto pt-10 space-x-[50px] align-middle">
@@ -37,7 +37,7 @@ export default function Home() {
     </div>
     <div className="pb-10"></div>
     
-    </div>
+    </body>
     </>
   )
 }
